@@ -1,0 +1,59 @@
+<%= form_for(@bag) do |f| %>
+  <% if @bag.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bag.errors.count, "error") %> prohibited this bag from being saved:</h2>
+
+      <ul>
+      <% @bag.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+ <!-- <div class="field">
+    <%= f.label :id %>
+    <%= f.text_field :id %>
+  </div> -->
+ <table>
+   <tr>
+     <td valign="top"></td>
+     <td valign="top"></td>
+   </tr>
+   <tr>
+   <div class="field">
+       <td valign="top"> <%= f.label :name %></td>
+       <td valign="top"><%= f.text_field :name %></td>
+      </div>
+   </tr>
+      <tr>
+        <div class="field">
+           <td valign="top"><%= f.label :description %></td>
+           <td valign="top"><%= f.text_area :description %></td>
+        </div>
+   </tr>
+      <tr>
+         <div class="field">
+           <td valign="top"><%= f.label :quantity %></td>
+           <td valign="top"><%= f.text_field :quantity %></td>
+         </div>
+   </tr>
+      <tr>
+         <div class="field">
+           <td valign="top"><%= f.label :image_url %></td>
+           <td valign="top"><%= f.text_field :image_url %></td>
+         </div>
+   </tr>
+      <tr>
+         
+           <td valign="top">&nbsp;</td>
+           <td valign="top">
+               <div class="actions">
+                <%= f.submit %>
+              </div>
+           </td>
+         
+   </tr>
+</table>
+
+<% end %>

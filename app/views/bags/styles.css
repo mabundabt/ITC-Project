@@ -1,0 +1,121 @@
+<!--
+body,td,th {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-image:url(images/Bluthner_Piano.jpg);
+}
+.error{
+	color:#FF0000;
+}
+.textfield {
+	width:250px;
+}
+a {
+	font-size: 12px;
+	color:#99CCFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #993399;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFF00;
+}
+h1 {
+	font-size: x-large;
+	color:#006633;
+}
+#main_div
+{
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav
+{
+	width: 100%;
+	/*margin: 0px 60px -0px -3px;*/
+	
+}
+#nav a
+{
+	color: #99CCFF;
+	padding: 8px 2px;
+	padding-left: 15px;
+	text-decoration: none;
+	font-size: 11px;
+	display: block;
+	/*background-color:#99CCFF;*/
+	border-bottom:#000000 thin solid;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	text-align:left;
+	margin:0;
+}
+#nav a:hover
+{
+	color: #ffffff;
+	background-color: #000033;
+
+/*
+	text-decoration: underline;
+*/
+}
+#nav a:active
+{
+	color: #ffffff;
+	background-color: #333333;
+
+/*
+	text-decoration: underline;
+*/
+}
+
+#nav2
+{
+	text-align: center;
+	background-color: #E4F5FF;
+	padding: 5px 0px;
+}
+#nav2 a
+{
+	padding: 10px 10px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 14px;
+/*
+	display: block;
+*/
+}
+#nav2 a:hover
+{
+	color: #ffffff;
+	background-color: #000066;
+	text-decoration: none;
+	font-size: 14px;
+/*
+	display: block;
+*/
+}
+.style1 {color: #FFFFFF}
+.style7 
+{
+	font-size: 85px;
+	font-family: "Century Gothic";
+	color: #0066FF;
+}
+.style9 {font-size: 40px}
+.style10 {font-size: 30px}
+.style11 {font-size: 85px}
+-->
